@@ -1,0 +1,16 @@
+{
+  "name": "qaf-berbagi",
+  "version": "1.0.0",
+  "description": "Webapp crowdfunding (infaq/sedekah) Quranic Action Forum UM Bandung",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "dev": "node --watch --env-file=.env server.js"
+  },
+  "engines": { "node": ">=20.6" },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "express": "^4.21.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
